@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trishula-agentreach"
+version = "1.0.0"
+description = "Sovereign multi-platform stealth radar for X (Twitter), Reddit, YouTube, and GitHub. Zero paid API lock-in."
+authors = [{name = "Trishula Software", email = "trishulasoftware@gmail.com"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.25.0",
+    "beautifulsoup4>=4.12.0"
+]
